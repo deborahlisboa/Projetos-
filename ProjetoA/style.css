@@ -1,0 +1,91 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@font-face {
+    font-family:'The Wild' ;
+    src: url('fonte/the_wild_breath_of_zelda/The\ Wild\ Breath\ of\ Zelda.otf') format('opentype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+:root{
+    --cor1: #E7F2D5;
+    --cor2: #A8B0BF;
+    --cor3: #253759;
+    --cor4: #182540;
+
+    --fontedestaque: 'The Wild', cursive;
+    --fontepadrão: Verdana, Geneva, Tahoma, sans-serif;
+    --fonteconto: 'Poppins', Geneva, Tahoma, sans-serif;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: var(--cor2);
+    font-family: var(--fontepadrão);
+
+}
+
+header{
+    background-image: linear-gradient(to bottom, #182540, #253759, #253759a6, #a8b0bfab) ;
+    color: var(--cor1);
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+header > h1{
+    font-family: var(--fontedestaque);
+    font-size: 10vw;
+    font-weight: normal;
+}
+header > p > a{
+    text-decoration: none;
+    color: var(--cor1);
+}
+a:hover{
+    background-color: #718cbebb;
+    color: rgba(0, 0, 0, 0.705);
+    text-decoration: underline;
+}
+header > p{
+    font-size: 1.3em;
+    margin-top: 0px;
+    font-family: var(--fontepadrão);
+}
+
+section{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left: 60px;
+    padding-right: 60px;
+    line-height: 1.5em;
+    font-family: var(--fonteconto);
+    font-size: 1.5vw;
+    text-justify:  auto;
+    display: block;
+}
+section>p{
+    padding-bottom: 0.9em;
+    text-indent: 1.5em;
+   
+}
+
+
+footer{
+    background-color: var(--cor4);
+    color: var(--cor1);
+    font-size: 1.2vw;
+    text-align: center;
+}
+
+footer > p > a{
+    text-decoration: none;
+    color: var(--cor2);
+}
+
+
