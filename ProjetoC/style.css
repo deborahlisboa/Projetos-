@@ -1,0 +1,31 @@
+charset "UTF-8";
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+::-webkit-scrollbar{
+    width: 0px; 
+    height: 0px;
+}
+
+img {
+    width: 95vw;
+
+    
+}
+a {
+    display: block;
+    background-color: #2e4328;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: normal;
+    font-family: 'Bebas Neue', sans-serif;
+}
+a:hover{
+    background-color: #185c10;
+}
